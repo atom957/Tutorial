@@ -1,0 +1,22 @@
+﻿1. Wygrana:
+ - papier pokonuje kamien,
+ - nozyce pokonuja papier,
+ - kamien pokonuje nozyce.
+
+ 2. algorytm:
+ - pobranie ruchu uzytkownika (z wykorzystaniem enum'a),
+ - generacja ruchu komputera,
+ - sprawdzenie wygranej (jesli nikt nie wygral - czyli ruch jest taki sam - gra toczy sie dalej, w przeciwnym razie zatrzymywana jest i wypisywany jest zwyciesca).
+
+  if (choice == (int)Type.STONE)
+            {
+                Console.WriteLine("STONE");
+            }
+            else if (choice == (int)Type.PAPER)
+            {
+                Console.WriteLine("PAPER");
+            }
+            else if (choice == (int)Type.SCISSORS)
+            {
+                Console.WriteLine("SCISSORS");
+            }

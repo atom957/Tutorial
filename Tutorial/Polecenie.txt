@@ -1,0 +1,13 @@
+﻿W katalogu znajdują się pliki z rozszerzeniem .t oraz .c, w których zapisane są odpowiednio parametry trójkątów i okręgów.
+Plik z trójkątem zawiera w trzech liniach współrzędne x, y wierzchołków. 
+Plik z okręgiem w pierwszej linii zawiera współrzędne x, y środka okręgu. W drugiej linii znajduje się długość promienia.
+Wszystkie liczby w obu typach plików są zmiennoprzecinkowe, a wpółrzędne punktów oddzielone są pojedynczą spacją. 
+
+Napisz klasę bazową Figure posiadającą publiczną metodę isPointInside przyjmującą punkt (w postaci pojedynczego obiektu lub współrzędnych, do samodzielnej decyzji). 
+Napisz implementujące go klasy Triangle i Circle, które w prywatnych polach powinny przechowywać parametry takie jak w w/w plikach. 
+Ich zawartość powinna być w całości przekazywana argumentami konstruktora i nie podlegać dalszym zmianom.
+Zaimplementuj w obu klasach metodę isPointInside.
+W przypadku trójkąta, punkt P znajduje się wewnątrz trójkąta ABC,
+jeżeli suma pól trójkątów ABP, BCP i ACP jest równa polu trójkąta ABC. Ze względu na niedokładność reprezentacji zmiennoprzecinkowej należy założyć,
+że pola są równe, jeżeli różnica między nimi nie przekracza 10-9.
+W przypadku okręgu, punkt P znajduje się w jego wnętrzu, jeżeli odległość punktu P od środka okręgu jest mniejsza niż jego promień.

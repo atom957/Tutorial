@@ -43,13 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="BankAccountPremium.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Comparer.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Figure.cs" />
+    <Compile Include="MyMath.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StonePaperScissors.cs" />
     <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kamien-papier-nozyce-projekt.txt" />
+    <Content Include="Polecenie.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
